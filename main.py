@@ -35,3 +35,5 @@ msgEmail.attach(MIMEText(corpo, 'plain'))
 
 server.sendmail(msgEmail['From'],msgEmail['To'], msgEmail.as_string())
 server.quit()   
+
+#dr00x_
